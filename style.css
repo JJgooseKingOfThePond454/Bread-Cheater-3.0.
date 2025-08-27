@@ -1,0 +1,72 @@
+button {
+    background-color: transparent;
+    border: 6px solid rgb(50, 207, 255);
+    outline: 3px rgb(50, 207, 255);;
+    }
+    .special {
+    background-color:rgb(131, 226, 255) ;
+    }
+    
+    h5 {
+        font-family: "Atkinson Hyperlegible", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    h1 {
+          font-family: "Atkinson Hyperlegible", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+    }
+    
+    div {
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    
+    }
+    
+    #BreadTitle {
+      text-align: center;
+      line-height: 0.4rem;
+    }
+    
+    #Beta {
+      text-align: center;
+      line-height: 0.5rem;
+    }
+    
+    #breadTooth {
+      text-align: center;
+    }
+    
+    body {
+      line-height: 1.5;
+      font-size: 40px;
+    }
+    
+    .section-title {
+      font-size: 2.7rem;
+     
+    }
+    
+    .section {
+      width: 100%;
+      font-size: 0rem;
+      height: 12.7rem;
+    }
+    .Tbutton {
+      font-size: 2.4rem;
+      touch-action: manipulation;
+      height: 86px;
+
+    }
+    
+    #aggression-slider {
+      width: 100%;
+     color: rgb(130, 255, 255);
+     height: 1rem;
+    
+    }
+
+   
