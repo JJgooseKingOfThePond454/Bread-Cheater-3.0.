@@ -70,8 +70,8 @@ button {
     }
 
    .slider-container {
-    width: 90%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1000px;
     position: relative;
     
     
@@ -89,9 +89,9 @@ button {
   input[type="range"]::-webkit-slider-runnable-track {
     width: 100%;
     height: var(--track-hight);
-    background: rgb(204, 233, 255);
+    background: rgb(201, 232, 255);
     border-radius: 10px;
-    height: 20px;
+    height: 18px;
     
   }
 
@@ -110,7 +110,7 @@ button {
     height: 40px;
     background: white;
     border-radius: 100%;
-    margin-top: -9px;
+    margin-top: -10px;
 
     
     
