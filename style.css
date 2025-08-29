@@ -23,6 +23,7 @@ button {
         font-family: "Atkinson Hyperlegible", sans-serif;
         font-weight: 100;
         font-style: normal;
+ 
     
     }
     
@@ -61,17 +62,65 @@ button {
       height: 86px;
 
     }
-    
-    #aggression-slider {
-      width: 100%;
-     color: rgb(130, 255, 255);
-     height: 1rem;
-    
-    }
+
     
     #Aimbot-section {
       height: 10rem;
 
     }
 
+   .slider-container {
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    
+    
+   }
+
+   input[type="range" ] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: var(--track-hight);
+    background: rgb(204, 233, 255);
+    border-radius: 10px;
+    height: 20px;
+    
+  }
+
+  input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: var(--track-hight);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  
+  }
    
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    margin-top: -9px;
+
+    
+    
+
+  }
+  input[type="range"]::-moz-slider-thumb {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    margin-top: -9px;
+  }
