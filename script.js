@@ -15,3 +15,5 @@ TbuttonElList.forEach(TbuttonEL => {
 //    slider.style.background = color;
 //})
 
+const rangeSlider = document.querySelector("slider")
+rangeSlider.style.background = 'linear-gradient(to right, rgb(147, 234, 240) ${'
