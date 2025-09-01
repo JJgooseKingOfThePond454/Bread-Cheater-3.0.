@@ -142,5 +142,8 @@ button {
 
   html {
     background-color: black;
-    padding-bottom: 8rem;
+    
+  }
+  head {
+    background: black;
   }
